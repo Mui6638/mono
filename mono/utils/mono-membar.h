@@ -76,7 +76,6 @@ static inline void mono_memory_write_barrier (void)
 {
 	mono_memory_barrier ();
 }
-#else
 #error "Don't know how to do memory barriers!"
 #endif
 
